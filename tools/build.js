@@ -23,7 +23,7 @@ function header(current) {
   const items = nav.map(n =>
     `<li><a href="${n.href}"${n.key === current ? ' aria-current="page"' : ''}>${n.label}</a></li>`).join('\n          ');
   return `<a class="skip-link" href="#inhoud">Naar de inhoud</a>
-${LIVE ? '' : '<div class="preview-bar" role="note">Testversie – niet gepubliceerd. Inhoud en beelden zijn ter beoordeling.</div>\n'}<header class="site-header">
+${LIVE ? '' : '<div class="preview-bar" role="note">Testversie – niet gepubliceerd</div>\n'}<header class="site-header">
   <div class="wrap header-inner">
     <a class="brand" href="/" aria-label="Urinesteen.nl, naar de homepage">${brandMark}<span>Urinesteen<span class="tld">.nl</span></span></a>
     <nav class="main-nav" id="hoofdmenu" aria-label="Hoofdmenu">
