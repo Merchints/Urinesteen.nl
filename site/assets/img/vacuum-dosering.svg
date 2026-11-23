@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif">
+  <title id="t">Principe van automatisch doseren in een vacuümleiding</title>
+  <desc id="d">Links een doseerunit met twee kleppen: één voert ontkalkingsgel toe aan de vacuümleiding, de andere laat op ingestelde momenten lucht toe. Daarnaast lopen aansluitingen van drie vacuümtoiletten op dezelfde leiding. Pijlen tonen de transportrichting naar de vacuümunit rechts.</desc>
+  <rect width="640" height="400" fill="#FFFFFF"/>
+
+  <!-- Vacuümleiding -->
+  <rect x="120" y="210" width="420" height="34" rx="17" fill="#8A97A8"/>
+  <rect x="124" y="214" width="412" height="26" rx="13" fill="#DCEBF7"/>
+  <!-- gelfilm langs onderwand -->
+  <path d="M130 236 H530" stroke="#1FA55B" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Toiletaansluitingen -->
+  <g fill="#8A97A8">
+    <rect x="250" y="150" width="14" height="62"/>
+    <rect x="340" y="150" width="14" height="62"/>
+    <rect x="430" y="150" width="14" height="62"/>
+  </g>
+  <g fill="#FFFFFF" stroke="#8A97A8" stroke-width="3">
+    <path d="M236 116 h42 v18 q0 18 -21 22 q-21 -4 -21 -22 z"/>
+    <path d="M326 116 h42 v18 q0 18 -21 22 q-21 -4 -21 -22 z"/>
+    <path d="M416 116 h42 v18 q0 18 -21 22 q-21 -4 -21 -22 z"/>
+  </g>
+  <text x="347" y="100" text-anchor="middle" font-size="17" fill="#4A5568">vacuümtoiletten op dezelfde leidingtak</text>
+
+  <!-- Doseerunit -->
+  <rect x="20" y="150" width="104" height="120" rx="10" fill="#0C2D57"/>
+  <text x="72" y="182" text-anchor="middle" font-size="16" font-weight="800" fill="#fff">Doseer-</text>
+  <text x="72" y="202" text-anchor="middle" font-size="16" font-weight="800" fill="#fff">unit</text>
+  <!-- kleppen -->
+  <circle cx="50" cy="240" r="12" fill="#1FA55B"/><text x="50" y="245" text-anchor="middle" font-size="13" font-weight="800" fill="#fff">G</text>
+  <circle cx="94" cy="240" r="12" fill="#7FB8E6"/><text x="94" y="245" text-anchor="middle" font-size="13" font-weight="800" fill="#0C2D57">L</text>
+
+  <!-- Vacuümunit -->
+  <rect x="540" y="180" width="80" height="94" rx="10" fill="#E2E8F0" stroke="#8A97A8" stroke-width="3"/>
+  <text x="580" y="222" text-anchor="middle" font-size="15" font-weight="700" fill="#0C2D57">vacuüm-</text>
+  <text x="580" y="240" text-anchor="middle" font-size="15" font-weight="700" fill="#0C2D57">unit</text>
+
+  <!-- Transportpijlen -->
+  <g fill="#0C2D57">
+    <path d="M170 227 h40 v-8 l16 12 l-16 12 v-8 h-40 z"/>
+    <path d="M470 227 h40 v-8 l16 12 l-16 12 v-8 h-40 z"/>
+  </g>
+
+  <!-- Legenda -->
+  <g font-size="17" fill="#1A2433">
+    <circle cx="34" cy="312" r="10" fill="#1FA55B"/><text x="52" y="318"><tspan font-weight="700">G</tspan>  klep voor de ontkalkingsgel</text>
+    <circle cx="34" cy="342" r="10" fill="#7FB8E6"/><text x="52" y="348"><tspan font-weight="700">L</tspan>  klep die lucht toelaat (luchtpuls)</text>
+    <path d="M24 372 h18 v-6 l12 9 l-12 9 v-6 h-18 z" fill="#0C2D57"/><text x="62" y="381">transportrichting in de vacuümleiding</text>
+  </g>
+  <text x="620" y="30" text-anchor="end" font-size="15" fill="#4A5568">Schematische principeweergave</text>
+</svg>
