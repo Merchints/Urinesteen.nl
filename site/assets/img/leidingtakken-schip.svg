@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 460" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif">
+  <title id="t">Eén toilet, één leidingtak of meerdere delen</title>
+  <desc id="d">Doorsnede van een schip met drie dekken. Op elk dek zijn drie vacuümtoiletten aangesloten op een leidingtak. De takken komen samen in een verticale leiding naar de vacuümunit. A markeert één toilet, B één hele leidingtak, C het gezamenlijke deel waar meerdere takken samenkomen.</desc>
+  <rect width="600" height="460" fill="#FFFFFF"/>
+  <!-- Romp -->
+  <path d="M20 40 H580 V330 Q560 400 480 400 H120 Q40 400 20 330 Z" fill="#EEF3F9" stroke="#B8C2CF" stroke-width="2"/>
+  <g stroke="#D5DCE4" stroke-width="6">
+    <line x1="20" y1="130" x2="580" y2="130"/>
+    <line x1="20" y1="220" x2="580" y2="220"/>
+    <line x1="20" y1="310" x2="580" y2="310"/>
+  </g>
+  <g font-size="15" fill="#4A5568">
+    <text x="32" y="62">dek 3</text><text x="32" y="152">dek 2</text><text x="32" y="242">dek 1</text>
+  </g>
+
+  <!-- Verticale verzamelleiding -->
+  <rect x="470" y="96" width="16" height="250" fill="#8A97A8"/>
+  <rect x="452" y="346" width="70" height="44" rx="8" fill="#E2E8F0" stroke="#8A97A8" stroke-width="2"/>
+  <text x="487" y="374" text-anchor="middle" font-size="14" font-weight="700" fill="#0C2D57">vacuümunit</text>
+
+  <!-- Takken -->
+  <g fill="#8A97A8">
+    <rect x="110" y="96" width="368" height="12"/>
+    <rect x="110" y="186" width="368" height="12"/>
+    <rect x="110" y="276" width="368" height="12"/>
+  </g>
+  <g id="toiletten" fill="#fff" stroke="#5E6C7E" stroke-width="2.5">
+    <path d="M128 66 h30 v14 q0 14 -15 17 q-15 -3 -15 -17 z"/>
+    <path d="M228 66 h30 v14 q0 14 -15 17 q-15 -3 -15 -17 z"/>
+    <path d="M328 66 h30 v14 q0 14 -15 17 q-15 -3 -15 -17 z"/>
+  </g>
+  <use href="#toiletten" y="90"/>
+  <use href="#toiletten" y="180"/>
+
+  <!-- A: één toilet -->
+  <circle cx="243" cy="82" r="30" fill="none" stroke="#E0A526" stroke-width="4"/>
+  <!-- B: één leidingtak -->
+  <rect x="104" y="180" width="362" height="24" rx="12" fill="none" stroke="#E0A526" stroke-width="4"/>
+  <!-- C: gezamenlijk deel -->
+  <rect x="462" y="180" width="32" height="170" rx="12" fill="none" stroke="#C0392B" stroke-width="4"/>
+
+  <g font-weight="800" font-size="18">
+    <circle cx="286" cy="50" r="15" fill="#E0A526"/><text x="286" y="56" text-anchor="middle" fill="#1A2433">A</text>
+    <circle cx="90" cy="192" r="15" fill="#E0A526"/><text x="90" y="198" text-anchor="middle" fill="#1A2433">B</text>
+    <circle cx="530" cy="200" r="15" fill="#C0392B"/><text x="530" y="206" text-anchor="middle" fill="#fff">C</text>
+  </g>
+  <g font-size="17" fill="#0C2D57">
+    <text x="20" y="428"><tspan font-weight="800">A</tspan> één toilet   <tspan font-weight="800">B</tspan> één leidingtak   <tspan font-weight="800">C</tspan> gezamenlijk deel</text>
+  </g>
+  <text x="588" y="452" text-anchor="end" font-size="13" fill="#4A5568">Schematische weergave</text>
+</svg>

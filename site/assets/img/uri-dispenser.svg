@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 520" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif">
+  <title id="t">Werking van de URI-dispenser</title>
+  <desc id="d">Een urinoir met daarin de URI-dispenser, gevuld met ongeveer een liter Superontkalker LIQUID. De dispenser druppelt het middel langzaam in de afvoer. Daar werkt het 's nachts in op de urinesteen in de sifon en de leiding.</desc>
+  <defs>
+    <marker id="flow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#157A43"/></marker>
+  </defs>
+  <rect width="560" height="520" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="300" height="520" fill="#EEF3F9"/>
+
+  <!-- Maan: na sluitingstijd -->
+  <path d="M52 40 a26 26 0 1 0 26 34 a20 20 0 1 1 -26 -34 z" fill="#0C2D57"/>
+  <text x="96" y="66" font-size="17" font-weight="700" fill="#0C2D57">na sluitingstijd</text>
+
+  <!-- Urinoir -->
+  <path d="M150 90 v30" stroke="#8A97A8" stroke-width="8"/>
+  <path d="M100 120 Q84 120 84 138 L84 280 Q84 350 150 360 Q216 350 216 280 L216 138 Q216 120 200 120 Z" fill="#fff" stroke="#5E6C7E" stroke-width="3"/>
+  <path d="M106 162 Q106 146 122 146 L178 146 Q194 146 194 162 L194 280 Q194 330 150 338 Q106 330 106 280 Z" fill="#F6F8FB" stroke="#B8C2CF" stroke-width="2"/>
+
+  <!-- Dispenser in de pot -->
+  <rect x="122" y="236" width="56" height="84" rx="8" fill="#1F5FAE"/>
+  <rect x="122" y="236" width="56" height="16" rx="6" fill="#174A87"/>
+  <rect x="128" y="262" width="44" height="50" rx="4" fill="#5FA0E0" opacity=".55"/>
+
+  <!-- Druppels -->
+  <g fill="#157A43">
+    <path d="M150 352 q-6 9 0 13 q6 -4 0 -13 z"/>
+    <path d="M150 378 q-6 9 0 13 q6 -4 0 -13 z"/>
+  </g>
+
+  <!-- Sifon en afvoer met urinesteen -->
+  <path d="M150 360 V420 a26 26 0 0 0 52 0 V404 H300" fill="none" stroke="#8A97A8" stroke-width="22" stroke-linejoin="round"/>
+  <path d="M150 360 V420 a26 26 0 0 0 52 0 V404 H300" fill="none" stroke="#E6EDF5" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M140 420 a36 36 0 0 0 72 0" fill="none" stroke="#C9A66B" stroke-width="5"/>
+  <path d="M212 396 H300" stroke="#C9A66B" stroke-width="4"/>
+  <path d="M226 404 H286" stroke="#157A43" stroke-width="4" marker-end="url(#flow)"/>
+
+  <!-- Labels -->
+  <g stroke="#0C2D57" stroke-width="2">
+    <line x1="180" y1="262" x2="318" y2="200"/>
+    <line x1="156" y1="384" x2="318" y2="312"/>
+    <line x1="206" y1="440" x2="318" y2="430"/>
+  </g>
+  <g font-size="19" fill="#0C2D57">
+    <text x="326" y="186" font-weight="800">URI-dispenser</text>
+    <text x="326" y="210">gevuld met ca. 1 liter</text>
+    <text x="326" y="232">Superontkalker LIQUID</text>
+    <text x="326" y="306" font-weight="800">Druppelt langzaam</text>
+    <text x="326" y="330">in de afvoer</text>
+    <text x="326" y="424" font-weight="800">Werkt ’s nachts in</text>
+    <text x="326" y="448">op urinesteen in sifon</text>
+    <text x="326" y="472">en afvoer</text>
+  </g>
+  <text x="548" y="510" text-anchor="end" font-size="13" fill="#4A5568">Schematische weergave</text>
+</svg>

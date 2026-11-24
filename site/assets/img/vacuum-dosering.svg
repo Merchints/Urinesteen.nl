@@ -1,51 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif">
-  <title id="t">Principe van automatisch doseren in een vacuümleiding</title>
-  <desc id="d">Links een doseerunit met twee kleppen: één voert ontkalkingsgel toe aan de vacuümleiding, de andere laat op ingestelde momenten lucht toe. Daarnaast lopen aansluitingen van drie vacuümtoiletten op dezelfde leiding. Pijlen tonen de transportrichting naar de vacuümunit rechts.</desc>
-  <rect width="640" height="400" fill="#FFFFFF"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 470" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif">
+  <title id="t">Principe van de maritieme doseerunit</title>
+  <desc id="d">Aan het einde van de hoofdvacuümleiding staat een doseerunit op een jerrycan ontkalkingsgel. De unit heeft twee kleppen: de ene voert gel toe aan de leiding, de andere laat op ingestelde momenten lucht toe. Die luchtpuls neemt de gel mee langs de binnenwand, langs de aansluitingen van de toiletten, richting de vacuümunit.</desc>
+  <defs>
+    <marker id="flow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#157A43"/></marker>
+    <marker id="air" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#3E8ED0"/></marker>
+  </defs>
+  <rect width="600" height="470" fill="#FFFFFF"/>
 
-  <!-- Vacuümleiding -->
-  <rect x="120" y="210" width="420" height="34" rx="17" fill="#8A97A8"/>
-  <rect x="124" y="214" width="412" height="26" rx="13" fill="#DCEBF7"/>
-  <!-- gelfilm langs onderwand -->
-  <path d="M130 236 H530" stroke="#1FA55B" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+  <!-- Hoofdvacuümleiding -->
+  <rect x="96" y="236" width="410" height="36" rx="18" fill="#8A97A8"/>
+  <rect x="101" y="241" width="400" height="26" rx="13" fill="#E6EDF5"/>
+  <path d="M110 263 H490" stroke="#1FA55B" stroke-width="5" stroke-linecap="round" opacity=".75"/>
+  <path d="M110 245 H300" stroke="#1FA55B" stroke-width="3" stroke-linecap="round" opacity=".5"/>
 
   <!-- Toiletaansluitingen -->
-  <g fill="#8A97A8">
-    <rect x="250" y="150" width="14" height="62"/>
-    <rect x="340" y="150" width="14" height="62"/>
-    <rect x="430" y="150" width="14" height="62"/>
+  <g>
+    <rect x="234" y="170" width="14" height="68" fill="#8A97A8"/>
+    <rect x="324" y="170" width="14" height="68" fill="#8A97A8"/>
+    <rect x="414" y="170" width="14" height="68" fill="#8A97A8"/>
+    <g fill="#fff" stroke="#5E6C7E" stroke-width="3">
+      <path d="M218 132 h46 v20 q0 20 -23 24 q-23 -4 -23 -24 z"/>
+      <path d="M308 132 h46 v20 q0 20 -23 24 q-23 -4 -23 -24 z"/>
+      <path d="M398 132 h46 v20 q0 20 -23 24 q-23 -4 -23 -24 z"/>
+    </g>
   </g>
-  <g fill="#FFFFFF" stroke="#8A97A8" stroke-width="3">
-    <path d="M236 116 h42 v18 q0 18 -21 22 q-21 -4 -21 -22 z"/>
-    <path d="M326 116 h42 v18 q0 18 -21 22 q-21 -4 -21 -22 z"/>
-    <path d="M416 116 h42 v18 q0 18 -21 22 q-21 -4 -21 -22 z"/>
-  </g>
-  <text x="347" y="100" text-anchor="middle" font-size="17" fill="#4A5568">vacuümtoiletten op dezelfde leidingtak</text>
-
-  <!-- Doseerunit -->
-  <rect x="20" y="150" width="104" height="120" rx="10" fill="#0C2D57"/>
-  <text x="72" y="182" text-anchor="middle" font-size="16" font-weight="800" fill="#fff">Doseer-</text>
-  <text x="72" y="202" text-anchor="middle" font-size="16" font-weight="800" fill="#fff">unit</text>
-  <!-- kleppen -->
-  <circle cx="50" cy="240" r="12" fill="#1FA55B"/><text x="50" y="245" text-anchor="middle" font-size="13" font-weight="800" fill="#fff">G</text>
-  <circle cx="94" cy="240" r="12" fill="#7FB8E6"/><text x="94" y="245" text-anchor="middle" font-size="13" font-weight="800" fill="#0C2D57">L</text>
+  <text x="331" y="116" text-anchor="middle" font-size="17" fill="#4A5568">vacuümtoiletten op de leiding</text>
 
   <!-- Vacuümunit -->
-  <rect x="540" y="180" width="80" height="94" rx="10" fill="#E2E8F0" stroke="#8A97A8" stroke-width="3"/>
-  <text x="580" y="222" text-anchor="middle" font-size="15" font-weight="700" fill="#0C2D57">vacuüm-</text>
-  <text x="580" y="240" text-anchor="middle" font-size="15" font-weight="700" fill="#0C2D57">unit</text>
+  <rect x="506" y="214" width="84" height="80" rx="10" fill="#E2E8F0" stroke="#8A97A8" stroke-width="3"/>
+  <text x="548" y="250" text-anchor="middle" font-size="16" font-weight="700" fill="#0C2D57">vacuüm-</text>
+  <text x="548" y="270" text-anchor="middle" font-size="16" font-weight="700" fill="#0C2D57">unit</text>
 
-  <!-- Transportpijlen -->
-  <g fill="#0C2D57">
-    <path d="M170 227 h40 v-8 l16 12 l-16 12 v-8 h-40 z"/>
-    <path d="M470 227 h40 v-8 l16 12 l-16 12 v-8 h-40 z"/>
-  </g>
+  <!-- Doseerunit op jerrycan -->
+  <rect x="14" y="300" width="90" height="110" rx="10" fill="#F4F6F8" stroke="#8A97A8" stroke-width="3"/>
+  <text x="59" y="362" text-anchor="middle" font-size="14" font-weight="700" fill="#0C2D57">gel</text>
+  <rect x="20" y="214" width="34" height="56" rx="4" fill="#1A2433"/>
+  <rect x="62" y="214" width="34" height="56" rx="4" fill="#1A2433"/>
+  <rect x="26" y="222" width="22" height="10" rx="2" fill="#1FA55B"/>
+  <rect x="68" y="222" width="22" height="10" rx="2" fill="#3E8ED0"/>
+  <text x="37" y="258" text-anchor="middle" font-size="16" font-weight="800" fill="#fff">G</text>
+  <text x="79" y="258" text-anchor="middle" font-size="16" font-weight="800" fill="#fff">L</text>
+  <path d="M37 300 V270" stroke="#1FA55B" stroke-width="5"/>
+  <path d="M54 252 H96" stroke="#1FA55B" stroke-width="5"/>
+  <path d="M79 190 V214" stroke="#3E8ED0" stroke-width="4" marker-end="url(#air)"/>
+  <text x="79" y="180" text-anchor="middle" font-size="15" fill="#3E8ED0" font-weight="700">lucht</text>
+
+  <!-- Transport -->
+  <path d="M150 254 H200" stroke="#3E8ED0" stroke-width="4" marker-end="url(#air)"/>
+  <path d="M440 254 H490" stroke="#3E8ED0" stroke-width="4" marker-end="url(#air)"/>
 
   <!-- Legenda -->
   <g font-size="17" fill="#1A2433">
-    <circle cx="34" cy="312" r="10" fill="#1FA55B"/><text x="52" y="318"><tspan font-weight="700">G</tspan>  klep voor de ontkalkingsgel</text>
-    <circle cx="34" cy="342" r="10" fill="#7FB8E6"/><text x="52" y="348"><tspan font-weight="700">L</tspan>  klep die lucht toelaat (luchtpuls)</text>
-    <path d="M24 372 h18 v-6 l12 9 l-12 9 v-6 h-18 z" fill="#0C2D57"/><text x="62" y="381">transportrichting in de vacuümleiding</text>
+    <rect x="140" y="320" width="22" height="16" rx="3" fill="#1FA55B"/>
+    <text x="172" y="334"><tspan font-weight="800">G</tspan> klep voert ontkalkingsgel toe</text>
+    <rect x="140" y="350" width="22" height="16" rx="3" fill="#3E8ED0"/>
+    <text x="172" y="364"><tspan font-weight="800">L</tspan> klep laat lucht toe: de luchtpuls</text>
+    <path d="M140 394 H162" stroke="#3E8ED0" stroke-width="4" marker-end="url(#air)"/>
+    <text x="172" y="400">luchtpuls neemt de gel mee door de leiding</text>
+    <path d="M140 424 H162" stroke="#1FA55B" stroke-width="5"/>
+    <text x="172" y="430">gel hecht aan de binnenwand</text>
   </g>
-  <text x="620" y="30" text-anchor="end" font-size="15" fill="#4A5568">Schematische principeweergave</text>
+  <text x="14" y="160" font-size="15" font-weight="700" fill="#0C2D57">einde hoofdleiding</text>
+  <text x="588" y="460" text-anchor="end" font-size="13" fill="#4A5568">Schematische weergave</text>
 </svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 500" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif">
+  <title id="t">Werking van de doseerkoffer</title>
+  <desc id="d">Een afsluitbare koffer op de vloer naast het urinoir. In de koffer staan een jerrycan Superontkalker LIQUID en een doseerpomp met tijdinstelling. Een slang loopt van de pomp naar het urinoir. Op ingestelde momenten doseert de pomp een kleine hoeveelheid, die in de sifon en de afvoer inwerkt.</desc>
+  <defs>
+    <marker id="flow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#157A43"/></marker>
+  </defs>
+  <rect width="560" height="500" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="560" height="372" fill="#EEF3F9"/>
+  <rect x="0" y="372" width="560" height="10" fill="#D5DCE4"/>
+
+  <!-- Urinoir rechts -->
+  <path d="M430 50 v28" stroke="#8A97A8" stroke-width="8"/>
+  <path d="M384 78 Q368 78 368 96 L368 214 Q368 270 430 278 Q492 270 492 214 L492 96 Q492 78 476 78 Z" fill="#fff" stroke="#5E6C7E" stroke-width="3"/>
+  <path d="M388 116 Q388 102 402 102 L458 102 Q472 102 472 116 L472 214 Q472 252 430 258 Q388 252 388 214 Z" fill="#F6F8FB" stroke="#B8C2CF" stroke-width="2"/>
+  <path d="M430 278 V316 a20 20 0 0 0 40 0 V300 H560" fill="none" stroke="#8A97A8" stroke-width="18" stroke-linejoin="round"/>
+  <path d="M430 278 V316 a20 20 0 0 0 40 0 V300 H560" fill="none" stroke="#E6EDF5" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M422 316 a28 28 0 0 0 56 0" fill="none" stroke="#C9A66B" stroke-width="4"/>
+  <path d="M484 300 H540" stroke="#157A43" stroke-width="4" marker-end="url(#flow)"/>
+
+  <!-- Koffer -->
+  <rect x="40" y="250" width="230" height="122" rx="8" fill="#1A2433"/>
+  <path d="M40 250 L64 150 H294 L270 250 Z" fill="#2E3A4C"/>
+  <rect x="52" y="262" width="206" height="98" rx="4" fill="#3B4658"/>
+  <!-- jerrycan -->
+  <path d="M64 290 h66 v66 h-66 z" fill="#F4F6F8"/>
+  <rect x="78" y="280" width="20" height="12" fill="#D9DEE5"/>
+  <text x="97" y="330" text-anchor="middle" font-size="13" font-weight="700" fill="#0C2D57">LIQUID</text>
+  <!-- pomp + tijdinstelling -->
+  <rect x="148" y="300" width="96" height="56" rx="6" fill="#E6EDF5"/>
+  <circle cx="176" cy="328" r="16" fill="#fff" stroke="#0C2D57" stroke-width="3"/>
+  <path d="M176 318 V328 L184 334" stroke="#0C2D57" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <rect x="200" y="314" width="34" height="28" rx="4" fill="#0C2D57"/>
+  <!-- slang -->
+  <path d="M130 300 C 140 286 150 296 160 300" fill="none" stroke="#7FB8E6" stroke-width="5"/>
+  <path d="M234 312 C 300 300 320 160 380 140 S 418 190 424 226" fill="none" stroke="#7FB8E6" stroke-width="6"/>
+  <g fill="#157A43"><path d="M424 236 q-6 9 0 13 q6 -4 0 -13 z"/></g>
+
+  <!-- Labels -->
+  <g stroke="#0C2D57" stroke-width="2">
+    <line x1="96" y1="286" x2="60" y2="126"/>
+    <line x1="176" y1="312" x2="196" y2="104"/>
+    <line x1="318" y1="196" x2="300" y2="104"/>
+  </g>
+  <g font-size="17" fill="#0C2D57" font-weight="700">
+    <text x="14" y="70">Jerrycan</text>
+    <text x="14" y="92" font-weight="400">Superontkalker</text>
+    <text x="14" y="114" font-weight="400">LIQUID</text>
+    <text x="160" y="70">Pomp met</text>
+    <text x="160" y="92" font-weight="400">tijdinstelling</text>
+    <text x="262" y="70">Slang naar</text>
+    <text x="262" y="92" font-weight="400">het urinoir</text>
+  </g>
+  <g font-size="17" fill="#0C2D57">
+    <text x="40" y="414" font-weight="800">Afsluitbare koffer</text>
+    <text x="40" y="438">doseert op ingestelde momenten,</text>
+    <text x="40" y="460">bijvoorbeeld buiten openingstijden</text>
+  </g>
+  <text x="548" y="490" text-anchor="end" font-size="13" fill="#4A5568">Schematische weergave</text>
+</svg>
